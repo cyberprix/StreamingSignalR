@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace StreamingSignalR.Hubs
 {
+
     public class StreamHub : Hub<IStreamHub>
     {
         public StreamHub()
