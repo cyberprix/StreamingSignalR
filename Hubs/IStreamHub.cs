@@ -7,7 +7,7 @@ namespace StreamingSignalR.Hubs
     public interface IStreamHub
     {
         /// <summary>
-        /// 
+        /// get server time from the server.
         /// </summary>
         /// <param name="date"></param>
         /// <returns></returns>
