@@ -6,6 +6,11 @@ namespace StreamingSignalR.Hubs
 {
     public interface IStreamHub
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
         Task GetServerTime(string date);
     }
 }
